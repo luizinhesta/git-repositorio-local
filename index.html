@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Fotos - PhotoPrism</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Projetos DevOps & Cloud - AWS e Infraestrutura Moderna</title>
+    <link rel="stylesheet" href="styles-devops.css">
 </head>
 <body>
     <!-- Cabeçalho -->
     <header class="header">
         <div class="container">
-            <h1 class="logo">📸 PhotoPrism</h1>
+            <h1 class="logo">Projetos DevOps & Cloud - AWS</h1>
             <nav class="nav">
                 <ul>
-                    <li><a href="#galeria">Galeria</a></li>
                     <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#galeria">Projetos</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
@@ -24,135 +24,146 @@
     <!-- Seção Hero -->
     <section class="hero">
         <div class="hero-content">
-            <h2>Capture Momentos Incríveis</h2>
-            <p>Explore nossa coleção de fotografias profissionais</p>
+            <h2>Infraestrutura, Automação e Inovação</h2>
+            <p>Transformando ideias em soluções escaláveis na nuvem</p>
         </div>
     </section>
 
-    <!-- Filtros -->
-    <section class="filtros">
-        <div class="container">
-            <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
-            <button class="filtro-btn" data-filtro="natureza">Natureza</button>
-            <button class="filtro-btn" data-filtro="cidade">Cidade</button>
-            <button class="filtro-btn" data-filtro="retratos">Retratos</button>
-            <button class="filtro-btn" data-filtro="viagem">Viagem</button>
-        </div>
-    </section>
-
-    <!-- Galeria de Fotos -->
-    <main id="galeria" class="galeria">
-        <div class="container">
-            <div class="grid-fotos">
-                <!-- Foto 1 -->
-                <div class="foto-item" data-categoria="natureza">
-                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" 
-                         alt="Montanhas nevadas">
-                    <div class="foto-overlay">
-                        <h3>Montanhas Nevadas</h3>
-                    </div>
-                </div>
-
-                <!-- Foto 2 -->
-                <div class="foto-item" data-categoria="cidade">
-                    <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=400&h=300&fit=crop" 
-                         alt="Skyline da cidade">
-                    <div class="foto-overlay">
-                        <h3>Luzes da Cidade</h3>
-                    </div>
-                </div>
-
-                <!-- Foto 3 -->
-                <div class="foto-item" data-categoria="retratos">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=300&fit=crop" 
-                         alt="Retrato profissional">
-                    <div class="foto-overlay">
-                        <h3>Retrato Artístico</h3>
-                    </div>
-                </div>
-
-                <!-- Foto 4 -->
-                <div class="foto-item" data-categoria="viagem">
-                    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&h=300&fit=crop" 
-                         alt="Praia tropical">
-                    <div class="foto-overlay">
-                        <h3>Praia Paradisíaca</h3>
-                    </div>
-                </div>
-
-                <!-- Foto 5 -->
-                <div class="foto-item" data-categoria="natureza">
-                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop" 
-                         alt="Floresta verde">
-                    <div class="foto-overlay">
-                        <h3>Floresta Amazônica</h3>
-                    </div>
-                </div>
-
-                <!-- Foto 6 -->
-                <div class="foto-item" data-categoria="cidade">
-                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop" 
-                         alt="Arquitetura moderna">
-                    <div class="foto-overlay">
-                        <h3>Arquitetura Moderna</h3>
-                    </div>
-                </div>
-
-                <!-- Foto 7 -->
-                <div class="foto-item" data-categoria="retratos">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop" 
-                         alt="Retrato com sorriso">
-                    <div class="foto-overlay">
-                        <h3>Sorriso Genuíno</h3>
-                    </div>
-                </div>
-
-                <!-- Foto 8 -->
-                <div class="foto-item" data-categoria="viagem">
-                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop" 
-                         alt="Deserto ao pôr do sol">
-                    <div class="foto-overlay">
-                        <h3>Deserto Dourado</h3>
-                    </div>
-                </div>
-
-                <!-- Foto 9 -->
-                <div class="foto-item" data-categoria="natureza">
-                    <img src="https://images.unsplash.com/photo-1433086720283-e69570e58f0f?w=400&h=300&fit=crop" 
-                         alt="Aurora boreal">
-                    <div class="foto-overlay">
-                        <h3>Aurora Boreal</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!-- Lightbox Modal -->
-    <div id="lightbox" class="lightbox">
-        <span class="lightbox-close">&times;</span>
-        <img id="lightbox-img" src="" alt="">
-        <div class="lightbox-caption"></div>
-        <button class="lightbox-prev">&#10094;</button>
-        <button class="lightbox-next">&#10095;</button>
-    </div>
-
-    <!-- Seção Sobre -->
+    <!-- SEÇÃO SOBRE: AWS Cloud x DevOps -->
     <section id="sobre" class="sobre">
         <div class="container">
-            <h2>Sobre PhotoPrism</h2>
-            <p>Somos uma plataforma dedicada à exibição de fotografias extraordinárias de fotógrafos talentosos ao redor do mundo. Cada imagem conta uma história única e captura momentos que valem a pena preservar.</p>
-        </div>
+            <h2 class="section-title">Sobre: AWS Cloud e DevOps</h2>
+            <div class="sobre-content">
+                <div class="sobre-card">
+                    <h3>O que é Cloud Computing (AWS)?</h3>
+                    <p>
+                        Amazon Web Services (AWS) é uma plataforma de computação em nuvem que oferece uma ampla gama 
+                        de serviços sob demanda, incluindo armazenamento, processamento, bancos de dados e análise de dados. 
+                        Permite que empresas escalem recursos de TI de forma rápida e eficiente, reduzindo custos de infraestrutura.
+                    </p>
+                </div>
+                
+                <div class="sobre-card">
+                    <h3>O que é DevOps?</h3>
+                    <p>
+                        DevOps é uma cultura e prática de engenharia que integra desenvolvimento (Dev) e operações (Ops). 
+                        Focado em automação, integração contínua, entrega contínua e monitoramento para melhorar a qualidade 
+                        e velocidade de entrega de software, garantindo confiabilidade e estabilidade em produção.
+                    </p>
+                </div>
+
+                <div class="sobre-card">
+                    <h3>A Sinergia AWS + DevOps</h3>
+                    <p>
+                        AWS fornece a infraestrutura escalável e flexível que DevOps necessita para implementar práticas modernas. 
+                        Juntos, permitem automação total do deploy, gerenciamento de recursos, monitoramento em tempo real e 
+                        recuperação de falhas, criando um ciclo de desenvolvimento mais ágil e confiável.
+                    </p>
+                </div>
+            </div>
     </section>
 
-    <!-- Rodapé -->
-    <footer class="footer">
+    <!-- GALERIA DE PROJETOS -->
+    <section id="galeria" class="galeria">
         <div class="container">
-            <p>&copy; 2026 PhotoPrism. Todos os direitos reservados.</p>
-            <p>Imagens fornecidas por Unsplash</p>
+            <h2 class="section-title">📸 Galeria de Projetos</h2>
+            
+            <!-- Filtros -->
+            <div class="filtros">
+                <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
+                <button class="filtro-btn" data-filtro="aws">AWS</button>
+                <button class="filtro-btn" data-filtro="devops">DevOps</button>
+                <button class="filtro-btn" data-filtro="infra">Infraestrutura</button>
+            </div>
+
+            <!-- Grid de Projetos -->
+            <div class="grid-fotos">
+
+                <!-- Projeto 1 -->
+                <div class="foto-item" data-categoria="devops">
+                    <img src="images/imagem (1).jpg" alt="Docker Swarm para AWS">
+                    <div class="foto-overlay">
+                        <h3>Docker Swarm para AWS</h3>
+                        <p>Cluster Docker Swarm implantado na AWS com balanceamento de carga, alta disponibilidade e escalabilidade automática.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="foto-item" data-categoria="aws">
+                    <img src="images/imagem (2).jpg" alt="AWS Organizations na Prática">
+                    <div class="foto-overlay">
+                        <h3>AWS Organizations na Prática</h3>
+                        <p>Estrutura multi-contas com governança, controle de acesso, billing centralizado e políticas SCP aplicadas.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 3 -->
+                <div class="foto-item" data-categoria="aws">
+                    <img src="images/imagem (3).jpg" alt="Amazon VPC">
+                    <div class="foto-overlay">
+                        <h3>Amazon VPC</h3>
+                        <p>Arquitetura de rede segura com sub-redes públicas e privadas, roteamento, NAT e controle via Security Groups.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 4 -->
+                <div class="foto-item" data-categoria="devops">
+                    <img src="images/imagem (4).jpg" alt="CI/CD com Jenkins e Docker">
+                    <div class="foto-overlay">
+                        <h3>CI/CD com Jenkins e Docker</h3>
+                        <p>Pipeline automatizado de integração contínua e entrega contínua com Jenkins, Docker e Git.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 5 -->
+                <div class="foto-item" data-categoria="aws">
+                    <img src="images/imagem (5).jpg" alt="Transit Gateway na Prática">
+                    <div class="foto-overlay">
+                        <h3>Transit Gateway na Prática</h3>
+                        <p>Integração de múltiplas VPCs e VPNs centralizadas com roteamento avançado e conectividade híbrida.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 6 -->
+                <div class="foto-item" data-categoria="devops">
+                    <img src="images/imagem (8).jpg" alt="VPS para AWS">
+                    <div class="foto-overlay">
+                        <h3>VPS para AWS</h3>
+                        <p>Migração e integração de servidor VPS para AWS com automação de provisionamento e infraestrutura como código.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 7 -->
+                <div class="foto-item" data-categoria="aws">
+                    <img src="images/imagem (6).jpg" alt="AWS VPN Site-to-Site para PfSense">
+                    <div class="foto-overlay">
+                        <h3>AWS VPN Site-to-Site para PfSense</h3>
+                        <p>Conexão híbrida segura entre ambiente on-premises (pfSense) e AWS utilizando VPN IPsec Site-to-Site.</p>
+                    </div>
+                </div>
+
+                <!-- Projeto 8 -->
+                <div class="foto-item" data-categoria="devops">
+                    <img src="images/imagem (7).jpg" alt="Git - Repositório Local">
+                    <div class="foto-overlay">
+                        <h3>Git - Repositório Local</h3>
+                        <p>Controle de versão distribuído com Git, gerenciamento de commits, branches e integração com GitHub.</p>
+                    </div>
+                </div>
+
+            </div>
+
+    <!-- Rodapé/Contato -->
+    <footer id="contato" class="footer">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>📧 Email: luizaugusouza@gmail.com</p>
+            <p>💼 LinkedIn: https://www.linkedin.com/in/luiz-inhesta-341b4b311/</p>
+            <p>🐙 GitHub: https://github.com/luizinhesta</p>
+            <p class="copyright">© 2026 DevOps & Cloud Projects. Todos os direitos reservados Luiz Inhesta.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script-devops.js"></script>
 </body>
 </html>
