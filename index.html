@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos - PhotoPrism</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">📸 PhotoPrism</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Capture Momentos Incríveis</h2>
+            <p>Explore nossa coleção de fotografias profissionais</p>
+        </div>
+    </section>
+
+    <!-- Filtros -->
+    <section class="filtros">
+        <div class="container">
+            <button class="filtro-btn ativo" data-filtro="todos">Todos</button>
+            <button class="filtro-btn" data-filtro="natureza">Natureza</button>
+            <button class="filtro-btn" data-filtro="cidade">Cidade</button>
+            <button class="filtro-btn" data-filtro="retratos">Retratos</button>
+            <button class="filtro-btn" data-filtro="viagem">Viagem</button>
+        </div>
+    </section>
+
+    <!-- Galeria de Fotos -->
+    <main id="galeria" class="galeria">
+        <div class="container">
+            <div class="grid-fotos">
+                <!-- Foto 1 -->
+                <div class="foto-item" data-categoria="natureza">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" 
+                         alt="Montanhas nevadas">
+                    <div class="foto-overlay">
+                        <h3>Montanhas Nevadas</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 2 -->
+                <div class="foto-item" data-categoria="cidade">
+                    <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=400&h=300&fit=crop" 
+                         alt="Skyline da cidade">
+                    <div class="foto-overlay">
+                        <h3>Luzes da Cidade</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 3 -->
+                <div class="foto-item" data-categoria="retratos">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=300&fit=crop" 
+                         alt="Retrato profissional">
+                    <div class="foto-overlay">
+                        <h3>Retrato Artístico</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 4 -->
+                <div class="foto-item" data-categoria="viagem">
+                    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&h=300&fit=crop" 
+                         alt="Praia tropical">
+                    <div class="foto-overlay">
+                        <h3>Praia Paradisíaca</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 5 -->
+                <div class="foto-item" data-categoria="natureza">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop" 
+                         alt="Floresta verde">
+                    <div class="foto-overlay">
+                        <h3>Floresta Amazônica</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 6 -->
+                <div class="foto-item" data-categoria="cidade">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop" 
+                         alt="Arquitetura moderna">
+                    <div class="foto-overlay">
+                        <h3>Arquitetura Moderna</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 7 -->
+                <div class="foto-item" data-categoria="retratos">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop" 
+                         alt="Retrato com sorriso">
+                    <div class="foto-overlay">
+                        <h3>Sorriso Genuíno</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 8 -->
+                <div class="foto-item" data-categoria="viagem">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop" 
+                         alt="Deserto ao pôr do sol">
+                    <div class="foto-overlay">
+                        <h3>Deserto Dourado</h3>
+                    </div>
+                </div>
+
+                <!-- Foto 9 -->
+                <div class="foto-item" data-categoria="natureza">
+                    <img src="https://images.unsplash.com/photo-1433086720283-e69570e58f0f?w=400&h=300&fit=crop" 
+                         alt="Aurora boreal">
+                    <div class="foto-overlay">
+                        <h3>Aurora Boreal</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+        <div class="lightbox-caption"></div>
+        <button class="lightbox-prev">&#10094;</button>
+        <button class="lightbox-next">&#10095;</button>
+    </div>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre PhotoPrism</h2>
+            <p>Somos uma plataforma dedicada à exibição de fotografias extraordinárias de fotógrafos talentosos ao redor do mundo. Cada imagem conta uma história única e captura momentos que valem a pena preservar.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 PhotoPrism. Todos os direitos reservados.</p>
+            <p>Imagens fornecidas por Unsplash</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
