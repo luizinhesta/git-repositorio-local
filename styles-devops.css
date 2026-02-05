@@ -23,7 +23,7 @@ body {
 
 /* ===== CABEÇALHO ===== */
 .header {
-    background: linear-gradient(135deg, #ff0000 0%, #232F3E 50%, #ff0000 100%);
+    background: linear-gradient(135deg, #f1860b 0%, #232F3E 50%, #f1860b 100%);
     color: white;
     padding: 1rem 0;
     position: sticky;
@@ -67,7 +67,7 @@ body {
 
 /* ===== HERO SECTION ===== */
 .hero {
-    background: linear-gradient(135deg, #232F3E 0%, #ff0000 100%);
+    background: linear-gradient(135deg, #232F3E 0%, #f1860b 100%);
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -102,7 +102,7 @@ body {
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background: linear-gradient(90deg, #ff0000, #232F3E);
+    background: linear-gradient(90deg, #f1860b, #232F3E);
     border-radius: 2px;
 }
 
@@ -131,7 +131,7 @@ body {
     background: linear-gradient(135deg, #f8f9fa, #ffffff);
     padding: 30px;
     border-radius: 8px;
-    border-left: 5px solid #ff0000;
+    border-left: 5px solid #f1860b;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
 }
@@ -163,7 +163,7 @@ body {
     padding: 40px;
     background: linear-gradient(135deg, #f0f4f8, #ffffff);
     border-radius: 10px;
-    border: 2px solid #ff0000;
+    border: 2px solid #f1860b;
 }
 
 .relacao-box {
@@ -173,7 +173,7 @@ body {
 }
 
 .relacao-box.aws {
-    background: linear-gradient(135deg, #ff0000, #FFA500);
+    background: linear-gradient(135deg, #f1860b, #FFA500);
 }
 
 .relacao-box.devops {
@@ -255,7 +255,7 @@ body {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    border-top: 4px solid #ff0000;
+    border-top: 4px solid #f1860b;
 }
 
 .topico-card:hover {
@@ -303,9 +303,9 @@ body {
 
 .filtro-btn {
     padding: 10px 25px;
-    border: 2px solid #ff0000;
+    border: 2px solid #f1860b;
     background-color: white;
-    color: #ff0000;
+    color: #f1860b;
     border-radius: 25px;
     cursor: pointer;
     font-weight: 600;
@@ -314,7 +314,7 @@ body {
 
 .filtro-btn:hover,
 .filtro-btn.ativo {
-    background-color: #ff0000;
+    background-color: #f1860b;
     color: white;
     transform: scale(1.05);
 }
@@ -395,7 +395,7 @@ body {
 
 /* ===== FOOTER ===== */
 .footer {
-    background: linear-gradient(135deg, #232F3E, #ff0000);
+    background: linear-gradient(135deg, #232F3E, #f1860b);
     color: white;
     padding: 50px 0 20px;
     text-align: center;
