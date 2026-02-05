@@ -95,14 +95,15 @@ git add .
 
 ``` bash
 git commit -m "descrição do que foi feito"
+```
 
 
 ------------------------------------------------------------------------
 
-## 💾 Criar um Commit
+## 💾 Envia os commits para o repositório remoto
 
 ``` bash
-git commit -m "descrição do que foi feito"
+git push origin main
 ```
 
 ------------------------------------------------------------------------
