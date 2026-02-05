@@ -145,3 +145,30 @@ versionamento local**.
 ------------------------------------------------------------------------
 
 
+## 🚀 Evolução Natural após Git Local
+
+Depois de dominar Git local, você pode:
+
+-   Conectar ao GitHub\
+-   Trabalhar com repositório remoto\
+-   Criar pipelines CI/CD\
+-   Automatizar deploy\
+-   Publicar projetos na nuvem (AWS, Azure, etc)
+
+Mas tudo começa com **Git Local**.
+
+------------------------------------------------------------------------
+
+## 📚 Público-Alvo
+
+-   Iniciantes em TI\
+-   Estudantes de programação\
+-   Quem quer aprender Git do zero\
+-   Quem deseja entrar em DevOps / Cloud
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Autor
+
+**Luiz Augusto**\
+🔗 GitHub: https://github.com/luizinhesta
